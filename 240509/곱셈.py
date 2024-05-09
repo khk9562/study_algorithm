@@ -21,7 +21,9 @@
 
 
 
-a, b = map(int, input("입력:").split())
+# a, b = map(int, input().split())
+a = int(input())
+b = int(input())
 print(a*(b%10))
 print(a*((b // 10) % 10))
 print(a*(b // 100))
