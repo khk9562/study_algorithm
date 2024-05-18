@@ -16,5 +16,3 @@ for i in range(col_count):
     for k in range(row_count):
         if k < len(arr) and i < len(arr[k]):
             print(arr[k][i], end="")
-
-# https://www.acmicpc.net/problem/10798
